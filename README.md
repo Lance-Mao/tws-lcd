@@ -1,0 +1,3 @@
+- 根目录
+  - 运行 `npm install`
+  - 测试 `npm test`
