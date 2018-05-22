@@ -1,11 +1,5 @@
 'use strict'
 
-let readline = require("readline");
-const r1 = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
 let stringsStyles = {
     0: ["._.", "|.|", "|_|"],
     1: ["...", "..|", "..|"],
@@ -58,7 +52,3 @@ function lcd(number) {
 
 exports.lcd = lcd;
 
-// 终端输入
-// r1.on('line',function(line){
-//     lcdDigit(line);
-// });
